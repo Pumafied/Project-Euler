@@ -1,5 +1,6 @@
 #The prime factors of 13195 are 5, 7, 13 and 29.
 
+<<<<<<< HEAD
 #What is the largest prime factor of the number 600851475143 ?
 
 #This keeps track of what the largest prime variable is
@@ -24,3 +25,6 @@ while PC <= number
 	#Resets PC2 and continues to count the progress through the loop
 	PC2 = 0
 	PC = PC + 1
+=======
+#What is the largest prime factor of the number 600851475143 ?
+>>>>>>> 56ecb18519e7dae626baaad488da2dc4394ac9db

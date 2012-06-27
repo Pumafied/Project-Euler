@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #calculates the sum of all primes beneath 2 million
 
 #initializes the program counter
@@ -48,3 +49,8 @@ while PC <= top:
 print primesum
 #this keeps the terminal open for all of you windows users
 fin = input("End of Program!")
+=======
+#The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+#Find the sum of all the primes below two million.
+>>>>>>> 56ecb18519e7dae626baaad488da2dc4394ac9db

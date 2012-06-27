@@ -5,6 +5,7 @@
 #Counter Variable
 PC = 0
 
+<<<<<<< HEAD
 #The stop variable
 stop = 4000000
 
@@ -38,3 +39,14 @@ while PC <= stop:
 	######## End of movement block	###################
 print fibsum
 input("End of program")
+=======
+
+#The fibinacci 1
+fib1 = 0
+
+#The fibinacci 2
+fib = 2
+
+#The fibinacci 3
+fib = 3
+>>>>>>> 56ecb18519e7dae626baaad488da2dc4394ac9db

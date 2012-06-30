@@ -5,6 +5,7 @@
 #Counter Variable
 PC = 0
 
+
 #The stop variable
 stop = 4000000
 
@@ -15,12 +16,7 @@ fib1 = 1
 fib2 = 2
 
 #The fibinacci 3
-fib3 = 0
-
-#Length of the fibanacci string that we are checking.
-length = 0
-
-
+fib3 = 3
 
 #the fibsum is the sum of the even valued fib numbers
 fibsum = 0
@@ -29,13 +25,12 @@ while PC <= stop:
 	#checks if the fib value is even if so then it adds it to our tracker
 	if fib2 % 2 == 0: 
 		fibsum = fibsum + fib2
-	
+	print fib2
 	#########Deals with the movement of the fib numbers ############
 	fib3 = fib2 + fib1
 	fib1 = fib2
 	fib2 = fib3
 	PC = PC + 1
-	print fibsum
 	######## End of movement block	###################
 print fibsum
 input("End of program")

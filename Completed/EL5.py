@@ -40,5 +40,4 @@ while end ==  0:
 #Returns the lowest possible
 print "Lowest is"
 print Lowest
-print "End of Program"
         

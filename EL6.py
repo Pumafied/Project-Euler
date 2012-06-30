@@ -32,4 +32,3 @@ FinalAnswer = SecondaryAnswer - NaturalSum2
 #print out the final answer
 
 print FinalAnswer
-raw_input("End of Program")

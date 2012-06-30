@@ -17,4 +17,3 @@ while PC < 1000:
 	PC = PC + 1
 #returns the answer
 print sums
-#off by 1000 

@@ -50,4 +50,5 @@ while y <= DigitLen:
 
 Greatest = CurGreatest
 print Greatest
+#keeps the diologue box open for windows users
 input('End Of Program')

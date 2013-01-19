@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #calculates the sum of all primes beneath 2 million
 
 #initializes the program counter
@@ -54,3 +55,8 @@ fin = input("End of Program!")
 
 #Find the sum of all the primes below two million.
 >>>>>>> 56ecb18519e7dae626baaad488da2dc4394ac9db
+=======
+#The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+#Find the sum of all the primes below two million.
+>>>>>>> Updates files from desktop

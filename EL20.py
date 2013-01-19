@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # n! means n  (n  1)  ...  3  2  1
 
 # For example, 10! = 10  9  ...  3  2  1 = 3628800,
@@ -32,3 +33,30 @@ while factorial > 0:
 	factorial = factorial - 1
 # this loop adds the digits of that number together for our final answer
 
+=======
+factorialTopLimit = 100
+factorialBottomLimit = 1
+factorial_sum = 0
+ProgramCounter = 0
+Spliter1 = 0;
+Spliter2 = 1;
+#loop over the values under 100 down to 0
+while factorialTopLimit > 0
+	factorial_
+
+
+while factorial > 0: 
+	factorial_base = factorial + factorial_base; 
+	factorial = factorial - 1;
+
+#count how long the number is then loop over the indvidual numbers adding them like above to factorial_sum
+Length =  len(factorial_base);
+while (PC2<Length):
+        FC_base = factorial_base[PC:PC2]
+        FC_base_sum = FC_base_sum + FC_base;
+        #Enumerates the count by one
+	Spliter1 = Spliter1 + 1;
+        Spliter2 = Spliter2 + 1;
+#Print the final answer 
+print factorial_sum
+>>>>>>> Updates files from desktop

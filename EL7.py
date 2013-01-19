@@ -2,6 +2,7 @@
 
 #What is the 10 001st prime number?
 
+<<<<<<< HEAD
 #this variable is where we will store what we use to display the number that we need
 highprime = 0
 
@@ -49,3 +50,31 @@ while prime <= desiredprime:
 print highprime
 input('End Of Program')
 #freezes on number 1228 although I am reletivly confidant that it is right. to be checked on a faster computer.
+=======
+#Brute force prime checker
+
+#The Desired prime number is the number of the prime number that we want.
+DesiredPrime = 10002;
+#The number that is being checked to see if is prime 	
+PrimeChecked = 0;
+#The number that we are on in the checking sequence
+PrimeCounter = 0;
+
+while PrimeCounter != DesiredPrime:
+	#The number that is being used to loop through and attempt to find a multiple
+	PrimeCheckVar = 5;
+	while PrimeCheckVar <= PrimeChecked:		 	
+		if PrimeCheckVar == PrimeChecked:
+			#it is prime if this code ends up executing
+			PrimeCounter = PrimeCounter + 1;
+			if PrimeCounter == DesiredPrime:
+				print PrimeChecked;
+				break;
+			break;
+		elif PrimeChecked%PrimeCheckVar == 0: 
+			#Then its not prime and we dont flag it and move on 	
+			break;
+		PrimeCheckVar = PrimeCheckVar + 1;
+	#adds one to the guess to run through the loop again 
+	PrimeChecked = PrimeChecked + 1;
+>>>>>>> Updates files from desktop

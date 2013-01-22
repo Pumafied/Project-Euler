@@ -27,8 +27,6 @@ Length = len(str(SecondaryNumber))
 SecondaryNumberstr = str(SecondaryNumber)
 
 #takes the types and calculates the sum
-
-
 while y <= Length:
 	SNSTR = SecondaryNumberstr[x:y]
         SNINT = int(SNSTR)
@@ -36,7 +34,4 @@ while y <= Length:
 	#Increases both of the counters by one
 	x = x + 1
 	y = y + 1
-
-
 print Sum
-input('End Of Program')

@@ -20,7 +20,6 @@ while Power <= PowerLimit:
 PowerSumInt = str(PowerSum)
 
 
-FinalAnswer = PowerSumInt[-11:] 
+FinalAnswer = PowerSumInt[-10:] 
 
 print FinalAnswer 
-input('End Of Program')

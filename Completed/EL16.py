@@ -12,11 +12,11 @@ Base = 2
 expponent = 1000
 
 #The great keeper of time
-PC = 1
+PC != 1
 
 #The substring selectors
-x = 0 
-y = 1 
+x = 0
+y = 1
 
 #Calculates the number after the power
 #LOL I cant maths
@@ -30,7 +30,7 @@ SecondaryNumberstr = str(SecondaryNumber)
 while y <= Length:
 	SNSTR = SecondaryNumberstr[x:y]
         SNINT = int(SNSTR)
-        Sum = Sum + SNINT 
+        Sum = Sum + SNINT
 	#Increases both of the counters by one
 	x = x + 1
 	y = y + 1

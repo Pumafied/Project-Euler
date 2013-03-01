@@ -1,6 +1,15 @@
 #The prime factors of 13195 are 5, 7, 13 and 29.
 #What is the largest prime factor of the number 600851475143 ?
 
+#while test <= desired numer
+#store all the factors into an array
+#while greater then zero and cont == true
+# then after putting them all in the array
+#Sort it
+#then go from highest to lowest return the first prime
+
+
+
 #this keeps the loop going
 cont = 1
 # The next number to retrieve from the array
@@ -10,7 +19,7 @@ PC = 0
 #This keeps track of what the largest prime variable is
 largestprime = 0
 
-#this is our limiting fator that keeps track of the value we want the prime factors of 
+#this is our limiting fator that keeps track of the value we want the prime factors of
 number = 600851475143
 
 #this keeps the value of the array to check against the highest
@@ -31,7 +40,7 @@ while cont == 1:
 	if arrayval % number == 0:
 		#then it is the new highest prime and set it as that
 		print "New highest number"
-		highestprime = arrayval 
+		highestprime = arrayval
 	#maintains the loop
 	PC = PC + 1
 print largestprime

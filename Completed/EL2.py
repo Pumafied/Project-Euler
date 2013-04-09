@@ -22,13 +22,11 @@ fibsum = 0
 
 while fib2 <= stop:
 	#checks if the fib value is even if so then it adds it to our tracker
-	if fib2 % 2 == 0: 
+	if fib2 % 2 == 0:
 		fibsum = fibsum + fib2
-	
+
 	#########Deals with the movement of the fib numbers ############
 	fib3 = fib2 + fib1
 	fib1 = fib2
 	fib2 = fib3
-
-	######## End of movement block	###################
 print fibsum
